@@ -1,0 +1,107 @@
+#body {
+    text-align: center;
+}
+#principale {
+   min-width: 940px;
+   height: auto;
+   margin-left: auto;
+   margin-right: autu;
+}
+.logo {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(107, 124, 118);
+}
+.image {
+    width: 80px;
+    height: 80px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+#menu {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(88, 87, 88);
+}
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    line-height: 50px;
+}
+#menu li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    background-color: rgb(40, 43, 43)   
+}
+#menu ul li a {
+    text-decoration: none;
+    width: 254px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+}
+#menu ul ul {
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+}
+#menu ul li:hover ul {
+    visibility: visible;
+}
+#menu li:hover{
+    background-color: gray;
+}
+#menu ul li ul a:hover{
+    color: #fff;
+    background: white;
+}
+
+#grandbloc {
+    width: 640px;
+    height: 300px;
+    background-color: rgba(46, 45, 85, 0.404);
+    padding: 8px;
+}
+#petitbloc {
+    width: 365px;
+    height: 316px;
+    margin-top: -316px;
+    background-color: rgb(60, 75, 70);
+    margin-left: 660px;
+}
+#petitbloc1 {
+    width: 350px;
+    height: 140px;
+    background-color: rgb(126, 77, 18);
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+#piedpage {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(163, 152, 136);
+    margin-top: 2px; 
+}
+#piedpage1 {
+    width: 33%;
+    height: 100px;
+    background-color: rgb(87, 74, 56);
+    float: left;
+}
+#piedpage2 {
+    width: 34%;
+    height: 100px;
+    background-color: rgb(53, 50, 61);
+    float: left;
+}
+#piedpage3 {
+    width: 33%;
+    height: 100px;
+    background-color: rgb(87, 74, 56);
+    float: left;
+}
+
